@@ -12,7 +12,6 @@ import pickle
 from sklearn.metrics import confusion_matrix
 
 df = pd.read_csv("mnist_train.csv", sep = ',')
-df = df[:20000]
 
 #Provides the shape of the dataset
 print(df.shape)
